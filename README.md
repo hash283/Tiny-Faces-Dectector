@@ -1,5 +1,5 @@
 # Tiny-Faces-Dectector
-A face detection model capable of detecting faces of various scales and sizes. This is trained using a Multi-Branch FCNN and modified Super Resolution GAN. Implementation of the [Finding Tiny Faces](https://arxiv.org/abs/1612.04402)
+A face detection model capable of detecting faces of various scales and sizes. This is trained using a Multi-Branch FCNN and modified Super Resolution GAN. Implementation of the paper [Finding Tiny Faces](https://arxiv.org/abs/1612.04402)
 
 ### Introduction
 The paper - released at CVPR 2017 - deals with finding small objects (particularly faces in our case) in an image, 
