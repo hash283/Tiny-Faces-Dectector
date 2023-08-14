@@ -11,9 +11,9 @@ Scale Invariance, Image resolution, Contextual reasoning. The algorithm is based
 Codes are written in Python. First, install [Anaconda](https://docs.anaconda.com/anaconda/install.html).
 Then install [OpenCV](https://github.com/opencv/opencv), [TensorFlow](https://www.tensorflow.org/).
 
-# Usage
+## Usage
 
-## Converting a pretrained model
+### Converting a pretrained model
 
 `matconvnet_hr101_to_pickle` reads weights of the MatConvNet pretrained model and 
 write back to a pickle file which is used in a TensorFlow model as initial weights.
@@ -28,7 +28,7 @@ python matconvnet_hr101_to_pickle.py
         --weight_file_path  /path/to/pickle_file
 ```
 
-## Testing Tiny Face Detector in TensorFlow
+### Testing Tiny Face Detector in TensorFlow
 
 1. Prepare images in a directory. 
 
@@ -44,7 +44,13 @@ Here test.jpeg is the input test image
 
 
 
-# Neural network diagram
+## Neural network diagram
 
 [This](https://github.com/hash283/Tiny-Faces-Dectector/blob/master/ResNet101.pdf)(pdf) is 
 a network diagram of the ResNet101-based model used here for an input image(height: 1150, width: 2048, channel: 3).
+
+## Results
+
+<img src="./selfie.jpg">
+<img src="./monkeys.jpg">
+<img src="./zombies.jpg">
