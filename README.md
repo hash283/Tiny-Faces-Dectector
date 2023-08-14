@@ -46,5 +46,5 @@ Here test.jpeg is the input test image
 
 # Neural network diagram
 
-[This](https://github.com/cydonia999/Tiny_Faces_in_Tensorflow/blob/master/networks/ResNet101.pdf)(pdf) is 
+[This](https://github.com/hash283/Tiny-Faces-Dectector/blob/master/ResNet101.pdf)(pdf) is 
 a network diagram of the ResNet101-based model used here for an input image(height: 1150, width: 2048, channel: 3).
